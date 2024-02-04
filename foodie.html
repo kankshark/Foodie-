@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>FOODIE!</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h1 class="logo">FOODIE!</h1>
+        <div class="sidebar-menus">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notifications</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </div>
+        <div class="siderbar-logout">
+            <a href="#"></a><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+        </div>
+    </div>
+    <div class="main">
+        <div clas="main-navbar">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <div class="search">
+                <input type="text" placeholder="What would you like to order?">
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="Profile">
+                <a class="Cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+        </div>
+        <div class="main-header">
+            <h2 class="main-title">Recommendations</h2>
+            <div class="main-arrow">
+                <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="high-wrapper">
+            <div class="highlight-card">
+                <img class="highlight-img" src="masaladose.jpg">
+                <h4>Masala Dosa</h4>
+                <p>50/-</p>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <img class="highlight-img" src="fried rice.jpg">
+            <div class="highlight-desc">
+                <h4>Fried Rice</h4>
+                <p>60/-</p>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <img class="highlight-img" src="idlyy.jpg">
+            <div class="highlight-desc">
+                <h4>Idly[2 pieces]</h4>
+                <p>20/-</p>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <img class="highlight-img" src="vada.jpg">
+            <div class="highlight-desc">
+                <h4>Vada[1 piece]</h4>
+                <p>15/-</p>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="main-filter">
+                <div>
+                    <h2 class="main-title">Menu<br> Category</h2>
+                    <div class="main-arrow">
+                        <ion-icon class="back-menus" name="chevron-back-circle-outline"></ion-icon>
+                        <ion-icon class="back-menus" name="chevron-forward-circle-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="filter-wrapper">
+                    <div class="filter-card">
+                        <div class="filter-icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>                        </div>
+                    </div>
+                    <p>All Menus</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="foods-outline"></ion-icon>
+                    </div>
+                    <p>Basics</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="wine-outline"></ion-icon>
+                    </div>
+                    <p>Beverages</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="healthy-outline"></ion-icon>
+                    </div>
+                    <p>Healthy</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="ice-cream-outline"></ion-icon>
+                    </div>
+                    <p>Dessert</p>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="main-detail">
+                <h2 class="main-title">Choose Order</h2>
+                <div class="detailed-wrapper">
+                    <div class="detail-card">
+                        <img class="detail-img" src="grice.jpg" width="100" height="100">
+                        <div class="detail-name">
+                            <h4>Gobi Rice</h4>
+                            <p class="detail-sub">Rice filled with the yumminess of Gobi.</p>
+                            <p class="price">60/-</p>
+                        </div>
+                        <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="gobim.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Gobi Manchurian</h4>
+                            <p class="detail-sub">That hint of sour & spice you need.</p>
+                            <p class="price">60/-</p>
+                        </div>
+                        <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="fruits.jpg" >
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Fruit Bowl</h4>
+                            <p class="detail-sub"> A low calorie & a nutrious meal.</p>
+                            <p class="price">50/-</p>
+                        </div>
+                        <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="trice.jpg">
+                    <div class="detail name">
+                        <div class="detail-name">
+                            <h4>Tomato Rice</h4>
+                            <p class="detail-sub">Steamed rice with chunks of tomatoes & indian spice.</p>
+                            <p class="price">50/-</p>
+                        </div>
+                        <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                    </div> 
+                </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="pfr.jpg">
+                    <div class="detail-desc">
+                        <div class="detail-name">
+                            <h4>Paneer Fried Rice</h4>
+                            <p class="detail-sub"> Steamed rice with vegetables & cottage cheese..</p>
+                            <p class="price">60/-</p>
+                        </div>
+                        <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="submit">Add to Cart</button>
+        </form>
+        <div id="order-summary">
+            <h2>Your Order</h2>
+            <ul id="order-list"></ul>
+            <p id="total">Total: $0.00</p>
+            <button onclick="checkout()">Checkout</button>
+        </div>
+    
+        <script>
+            let order = [];
+            let total = 0;
+    
+            function addToOrder(itemName, itemPrice) {
+                order.push({ name: itemName, price: itemPrice });
+                total += itemPrice;
+    
+                updateOrderSummary();
+            }
+    
+            function updateOrderSummary() {
+                const orderList = document.getElementById('order-list');
+                const totalElement = document.getElementById('total');
+    
+                orderList.innerHTML = "";
+                order.forEach(item => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = ${item.name} - $${item.price.toFixed(2)};
+                    orderList.appendChild(listItem);
+                });
+    
+                totalElement.textContent = Total: $${total.toFixed(2)};
+            }
+    
+            function checkout() {
+                alert(Total amount: $${total.toFixed(2)}\nThank you for your order!);
+                // Additional logic for processing the order can be added here
+    
+                // Reset the order and total after checkout
+                order = [];
+                total = 0;
+                updateOrderSummary();
+            }
+        </script>
+
+        <div class="ewallet-section">
+            <h2>E-Wallet Balance:1000</h2>
+            <button onclick="openWallet()">Open E-Wallet</button>
+        </div>
+    </div>
+
+    <script>
+        function openWallet() {
+            // Add logic to open e-wallet or redirect to e-wallet page
+            alert("Opening E-Wallet..");
+        }
+    </script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js">
+</script>
+</html>
